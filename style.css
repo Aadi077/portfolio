@@ -1,0 +1,27 @@
+h1{
+    color: black
+}
+.Header{
+    background-color: cyan;
+    display:flex;
+    justify-content: space-between;
+
+}
+.Grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Content{
+    display:flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+}
+body{
+    background-color: white;
+}
+.Footer{
+    display:flex;
+    justify-content: flex-end;
+}
