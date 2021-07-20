@@ -2,7 +2,7 @@ h1{
     color: black
 }
 .Header{
-    background-color: cyan;
+    background-color:#65D5F3;
     display:flex;
     justify-content: space-between;
 
@@ -19,9 +19,39 @@ h1{
     align-items: center;
 }
 body{
-    background-color: white;
+    background-color: #29B2D6;
 }
+a:link {
+    color:coral;
+}
+a:visited{
+    color:white
+}
+.Menu{
+    display:flex;
+    margin-right: 30px;
+}
+.Menu a{
+    margin-left: 30px;
+}
+
 .Footer{
     display:flex;
     justify-content: flex-end;
+}
+.Projects{
+    position:relative
+}
+.Projects p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0
+}
+.Projects:hover p{
+    opacity:1
+}
+.Projects:hover img{
+    opacity:0.33;
 }
